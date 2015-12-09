@@ -18,4 +18,4 @@ class ConfigToDictionary:
       for option in parser.options(section):
         dict[section][option] = parser.get(section, option)
 
-    print(dict)
+    return dict
