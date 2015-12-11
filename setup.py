@@ -11,7 +11,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
   name='cfgtodict',
-  version='1.0.0',
+  version='0.1.0',
   description='A simple class for converting a *.cfg file to a Python Dictionary',
   long_description=long_description,
   url='https://github.com/joelklabo/cfgtodict',
